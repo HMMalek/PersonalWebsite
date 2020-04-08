@@ -16,7 +16,7 @@
   grid-template-areas:
     "a b b ";
   background-color: #282c45;
-  min-height: 13vh;
+  min-height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
