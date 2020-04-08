@@ -1,7 +1,6 @@
 {
   "name": "website",
-
-"homepage": "http://HMMalek.github.io/PersonalWebsite",
+  "homepage": "https://HMMalek.github.io/PersonalWebsite/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
