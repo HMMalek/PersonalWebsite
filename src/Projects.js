@@ -1,12 +1,11 @@
 import React, { Component } from 'react'
 import logo from './star.png';
-import Sidebar from './Sidebar.js'
 import './App.css';
 
 export default class Projects extends Component {
  render(){
   return (
-    <div className="Pro">
+    <div className="main">
 
         <div id="reverb">
           <h3>Measuring reverberations in a room using a logSweep</h3>

@@ -21,23 +21,8 @@ export default class App extends Component {
       <div className="Sidebar">
         <ul>
           <li><Link to={'/About'}>About</Link>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              About
-            </a>
           </li>
           <li><Link to={'/Projects'}>Projects</Link>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target=""
-              rel="noopener noreferrer">
-                Projects
-            </a>
           </li>
         </ul>
       </div>
