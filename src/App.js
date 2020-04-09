@@ -14,15 +14,15 @@ export default class App extends Component {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p id="wlc">
-          HMMALEK
+          Welcome to my website!
         </p>
       </header>
 
       <div className="Sidebar">
         <ul>
-          <li><Link to={'/About'}>About</Link>
+          <li id="link"><Link to={'/About'}>About</Link>
           </li>
-          <li><Link to={'/Projects'}>Projects</Link>
+          <li id="link"><Link to={'/Projects'}>Projects</Link>
           </li>
         </ul>
       </div>
@@ -30,7 +30,7 @@ export default class App extends Component {
         <Route path='/About'component={About}/>
         <Route path='/Projects'component={Projects}/>
       </Switch>
-      <div id="Content">Welcome to my website! 
+      <div id="Content">
       </div>
 
     </div>

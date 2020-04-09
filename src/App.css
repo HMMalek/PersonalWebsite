@@ -15,39 +15,54 @@
   grid-auto-rows: 100px;
   grid-template-areas:
     "a b b ";
-  background-color: #282c45;
+  background-color: #F3A3B1;
   min-height: 10vh;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-logo{
   height: 7vmin;
   pointer-events: none;
   grid-area: a;
 }
+
+.App-avatar{
+  height: 15vmin;
+  pointer-events: none;
+  grid-area: a;
+}
+
 #wlc{
   grid-area: b;
 }
+
 .App-link {
-  color: #55dafb;
+  color: #F199B6;
 }
 .Sidebar {
+  margin-top: 2%;
   margin-left: 50px;
-  
 }
+
+#link{
+  font-size: 20px;
+  color: #4D4145;
+}
+
 .main{
   margin-left: 20%;
   margin-top: -3%;
 }
 
-
-
-
-
-
-
-
-
+#title{
+  font-size: 25px;
+  color: #4D4145;
+}
+#aboutDesc{
+  margin-left: 17%;
+  margin-top: -8%;
+}
 
 @keyframes App-logo-spin {
   from {
